@@ -22,6 +22,6 @@ Their sum is **1+2+3=6**. Since the *sum of the divisors equals the number, 6 is
  ```if (i * i != n)``` prevents the program from adding the same divisor twice.
 
 ## Notes for the noobs:
-```push_back()``` : [check this] (https://www.geeksforgeeks.org/cpp/vector-push-back-cpp-stl/)
+```push_back()``` : [check this](https://www.geeksforgeeks.org/cpp/vector-push-back-cpp-stl/)
 
 
