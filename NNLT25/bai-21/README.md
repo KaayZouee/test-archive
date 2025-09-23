@@ -20,3 +20,8 @@ Their sum is **1+2+3=6**. Since the *sum of the divisors equals the number, 6 is
 - If i is a divisor, we add it to sumOfDivisors. This is the first number in the pair of divisors. For example, if n is 100, when i is 2, the code adds 2 to the sum.
 ### NOTE:
  ```if (i * i != n)``` prevents the program from adding the same divisor twice.
+
+## Notes for the noobs:
+```push_back()``` : [check this] (https://www.geeksforgeeks.org/cpp/vector-push-back-cpp-stl/)
+
+
