@@ -26,17 +26,17 @@ int main() {
         return 0;
     }
 
-    __int128 best = 0;
+    long long best = 0;
 
     if (n % 2 == 1) {
         long long a = n / 2;
         long long b = n - a;
-        best = (__int128)a * (__int128)b;
+        best = a * b;
     } else {
-            long long half = n / 2;
+        long long half = n / 2;
         for (long long a = half; a >= 1; --a) {
-            if (std::gcd(a, n) == 1) {
-                best = (__int128)a * (__int128)(n - a);
+            if (gcd(a, n) == 1) {
+                best = a * (n - a);
                 break;
             }
         }
